@@ -192,6 +192,11 @@ body {
   margin-bottom: 20px;
 }
 
+.stock-info{
+  color: var(--secondary-text);
+  margin-bottom: 20px;
+}
+
 .buttons {
   display: flex;
   gap: 10px;

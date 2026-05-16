@@ -1,0 +1,87 @@
+/* Orders.css */
+.orders-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.orders-title {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.no-orders {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-card {
+  background: #fefefe;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.order-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.order-id {
+  letter-spacing: 1px;
+}
+
+.order-status {
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.status-delivered {
+  background-color: #27ae60;
+}
+
+.status-processing {
+  background-color: #f39c12;
+}
+
+.status-shipped {
+  background-color: #2980b9;
+}
+
+.order-items {
+  margin-top: 10px;
+}
+
+.order-items ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 8px 0 0 0;
+}
+
+.order-items li {
+  margin-bottom: 4px;
+}
